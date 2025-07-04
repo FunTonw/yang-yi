@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
+// @ts-ignore
+import "swiper/css";
 
 const images = ref([
   "https://fastly.picsum.photos/id/387/1024/800.jpg?hmac=BC9BSApvjbtRfWjv9MFko1PwjA89fIwxMA744Tn4wgA",

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
+// @ts-ignore
+import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
 
