@@ -6,45 +6,56 @@ const menus = ref([
     name: "關於洋億",
     link: "#",
     subItems: [
-      { name: "公司簡介", link: "#" },
-      { name: "經營理念", link: "#" },
-      { name: "團隊介紹", link: "#" },
+      { name: "公司簡介", link: "/company" },
+      { name: "遠景與使命 ", link: "/vision" },
+      { name: "團隊介紹", link: "/teammate" },
     ],
   },
   {
     name: "服務項目",
-    link: "#",
-    subItems: [
-      { name: "工程規劃", link: "#" },
-      { name: "施工管理", link: "#" },
-      { name: "品質保證", link: "#" },
-    ],
+    link: "/service",
   },
   {
     name: "工程實績",
-    link: "#",
+    link: "/projectPortfolio",
     subItems: [
-      { name: "住宅工程", link: "#" },
-      { name: "商業工程", link: "#" },
-      { name: "公共工程", link: "#" },
+      {
+        name: "結構工程",
+        link: "/projectPortfolio?cat=BuildingStuctureEngineering",
+      },
+      { name: "水土保持工程", link: "/projectPortfolio?cat=WaterSoilPalaning" },
+      { name: "水利工程", link: "/projectPortfolio?cat=HydraulicEngineering" },
+      {
+        name: "橋梁工程",
+        link: "/projectPortfolio?cat=BridgeEngineeringConsultant",
+      },
+      {
+        name: "專案管理",
+        link: "/projectPortfolio?cat=ProjectConstructionManagement",
+      },
+      { name: "地景工程", link: "/projectPortfolio?cat=LandScapeEngineering" },
+      {
+        name: "社宅x耐震監督",
+        link: "/projectPortfolio?cat=StuctureAccrediationBuilding",
+      },
     ],
   },
   {
     name: "最新消息",
-    link: "#",
+    link: "/news",
     subItems: [
-      { name: "公司新聞", link: "#" },
-      { name: "工程進度", link: "#" },
-      { name: "活動訊息", link: "#" },
+      { name: "重要公告", link: "/news?cat=ImportantNotice" },
+      { name: "公司活動", link: "/news?cat=CompanyEvent" },
+      { name: "工程查核", link: "/news?cat=ProjectAudit" },
+      { name: "工程督導", link: "/news?cat=ProjectSupervision" },
     ],
   },
   {
     name: "聯絡我們",
     link: "#",
     subItems: [
-      { name: "聯絡資訊", link: "#" },
-      { name: "線上諮詢", link: "#" },
-      { name: "常見問題", link: "#" },
+      { name: "人才招募", link: "/joinus" },
+      { name: "聯絡資訊", link: "/contact" },
     ],
   },
 ]);
@@ -156,7 +167,7 @@ onUnmounted(() => {
           {{ menu.name }}
         </a>
         <ul
-          v-if="activeMenu === menu.name"
+          v-if="activeMenu === menu.name && menu.subItems"
           class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 min-w-[200px]"
           @mouseenter="openSubmenu(menu.name)"
           @mouseleave="closeSubmenu"
