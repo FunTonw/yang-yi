@@ -7,7 +7,7 @@ const router = useRouter();
 const menus = ref([
   {
     name: "關於洋億",
-    link: "/company",
+    link: "#",
     subItems: [
       { name: "公司簡介", link: "/company" },
       { name: "遠景與使命 ", link: "/vision" },
@@ -55,7 +55,7 @@ const menus = ref([
   },
   {
     name: "聯絡我們",
-    link: "/contact",
+    link: "#",
     subItems: [
       { name: "人才招募", link: "/joinus" },
       { name: "聯絡資訊", link: "/contact" },
