@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 
 const menus = ref([
   {
     name: "關於洋億",
-    link: "#",
+    link: "/company",
     subItems: [
       { name: "公司簡介", link: "/company" },
       { name: "遠景與使命 ", link: "/vision" },
@@ -52,7 +55,7 @@ const menus = ref([
   },
   {
     name: "聯絡我們",
-    link: "#",
+    link: "/contact",
     subItems: [
       { name: "人才招募", link: "/joinus" },
       { name: "聯絡資訊", link: "/contact" },
@@ -158,14 +161,14 @@ onUnmounted(() => {
 
     <ul class="hidden md:flex items-center gap-7 font-bold">
       <li v-for="menu in menus" :key="menu.name" class="relative group">
-        <a
-          :href="menu.link"
+        <router-link
+          :to="menu.link"
           class="text-navbarText hover:text-orange-500 transition flex items-center gap-1 tracking-[2px]"
           @mouseenter="openSubmenu(menu.name)"
           @mouseleave="closeSubmenu"
         >
           {{ menu.name }}
-        </a>
+        </router-link>
         <ul
           v-if="activeMenu === menu.name && menu.subItems"
           class="absolute top-full left-0 bg-white shadow-lg rounded-lg py-2 min-w-[200px]"
@@ -173,12 +176,12 @@ onUnmounted(() => {
           @mouseleave="closeSubmenu"
         >
           <li v-for="subItem in menu.subItems" :key="subItem.name">
-            <a
-              :href="subItem.link"
+            <router-link
+              :to="subItem.link"
               class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-500 transition"
             >
               {{ subItem.name }}
-            </a>
+            </router-link>
           </li>
         </ul>
       </li>
@@ -196,12 +199,12 @@ onUnmounted(() => {
       <ul class="p-4 space-y-2">
         <li v-for="menu in menus" :key="menu.name">
           <div class="flex items-center justify-between">
-            <a
-              :href="menu.link"
+            <router-link
+              :to="menu.link"
               class="text-gray-800 font-bold hover:text-orange-500 transition"
             >
               {{ menu.name }}
-            </a>
+            </router-link>
             <button
               v-if="menu.subItems"
               @click="toggleMobileSubmenu(menu.name)"
@@ -228,12 +231,12 @@ onUnmounted(() => {
             class="pl-4 mt-2 space-y-2"
           >
             <li v-for="subItem in menu.subItems" :key="subItem.name">
-              <a
-                :href="subItem.link"
+              <router-link
+                :to="subItem.link"
                 class="block py-2 text-sm text-gray-600 hover:text-orange-500 transition"
               >
                 {{ subItem.name }}
-              </a>
+              </router-link>
             </li>
           </ul>
         </li>
