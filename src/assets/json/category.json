@@ -1,0 +1,67 @@
+{
+  "categories": [
+    {
+      "img": "public/image/cellImage_0_10.jpg",
+      "title": "結構工程",
+      "Entitle": "Building Stucture Engineering",
+      "en": "BuildingStuctureEngineering",
+      "desc": "提供建築結構設計、分析與安全評估，確保建築物穩固與耐用。"
+    },
+    {
+      "img": "public/image/cellImage_0_30.jpg",
+      "title": "水土保持工程",
+      "Entitle": "Water&Soil Palaning",
+      "en": "WaterSoilPalaning",
+      "desc": "專注於防止水土流失，維護土地資源與生態環境。"
+    },
+    {
+      "img": "public/image/cellImage_0_8.jpg",
+      "title": "橋梁工程",
+      "Entitle": "Bridge Engineering Consultant",
+      "en": "BridgeEngineeringConsultant",
+      "desc": "橋梁結構設計、檢測與維護，保障交通運輸安全。"
+    },
+    {
+      "img": "public/image/cellImage_0_28.jpg",
+      "title": "專案管理",
+      "Entitle": "Project&Construction Management",
+      "en": "ProjectConstructionManagement",
+      "desc": "整合規劃、設計、施工與監督，確保工程如期如質完成。"
+    },
+    {
+      "img": "public/image/cellImage_0_3.jpg",
+      "title": "地景工程",
+      "Entitle": "LandScape Engineering",
+      "en": "LandScapeEngineering",
+      "desc": "結合生態與美學，打造永續且具特色的景觀空間。"
+    },
+    {
+      "img": "public/image/cellImage_0_62.jpg",
+      "title": "社宅x耐震監督",
+      "Entitle": "Stucture Accrediation Building",
+      "en": "StuctureAccrediationBuilding",
+      "desc": "專業社會住宅規劃與耐震安全監督，守護居住品質。"
+    },
+    {
+      "img": "public/image/cellImage_0_55.jpg",
+      "title": "防水工程",
+      "Entitle": "Water Proofing Engineering",
+      "en": "WaterProofingEngineering",
+      "desc": "確保防水設計確實執行，保障建築的品質與耐久性。"
+    },
+    {
+      "img": "public/image/cellImage_0_51.jpg",
+      "title": "土木水利工程(開口合約)",
+      "Entitle": "Civil&Hydraulic Engineering",
+      "en": "CivilHydraulicEngineering",
+      "desc": "規劃與設計各類水資源利用及防洪排水設施，提升水環境品質。"
+    },
+    {
+      "img": "public/image/cellImage_0_42.jpg",
+      "title": "道路工程",
+      "Entitle": "Highway Construction",
+      "en": "HighwayConstruction",
+      "desc": "從規劃設計到施工監造，確保道路平整、安全耐用，提升交通效率與用路品質。"
+    }
+  ]
+}

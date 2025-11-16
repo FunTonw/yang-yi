@@ -13,7 +13,7 @@
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full"
         >
           <div
-            v-for="(card, idx) in cards"
+            v-for="(card, idx) in categories"
             :key="idx"
             class="relative rounded-lg overflow-hidden shadow-lg group h-[300px] flex flex-col justify-end cursor-pointer"
             @click="goToPortfolio(card)"
@@ -52,65 +52,28 @@
 
 <script setup lang="ts">
 import { useRouter } from "vue-router";
+import { categories } from "../../assets/json/category.json";
 const router = useRouter();
 
-function goToPortfolio(card: any) {
+function goToPortfolio(card: {
+  img: string;
+  title: string;
+  Entitle: string;
+  desc: string;
+}) {
   // 對應分類英文查詢值
   const categoryMap: Record<string, string> = {
     結構工程: "BuildingStuctureEngineering",
     水土保持工程: "WaterSoilPalaning",
-    水利工程: "HydraulicEngineering",
     橋梁工程: "BridgeEngineeringConsultant",
     專案管理: "ProjectConstructionManagement",
     地景工程: "LandScapeEngineering",
     社宅x耐震監督: "StuctureAccrediationBuilding",
+    防水工程: "WaterProofingEngineering",
+    "土木水利工程(開口合約)": "HydraulicEngineering",
+    道路工程: "HighwayConstruction",
   };
   const cat = categoryMap[card.title] || "";
   router.push({ path: "/projectPortfolio", query: { cat } });
 }
-
-const cards = [
-  {
-    img: "https://fastly.picsum.photos/id/570/600/600.jpg?hmac=n0I3nHroHX3een5mn5QbAB_DvEcGQrHrjEgdMqYfmGw",
-    title: "結構工程",
-    Entitle: "Building Stucture Engineering",
-    desc: "提供建築結構設計、分析與安全評估，確保建築物穩固與耐用。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/946/600/600.jpg?hmac=0RH9ovnE6cr8I6Mlz9UPB-X3JrjZXK0lBxVwSNx_ol8",
-    title: "水土保持工程",
-    Entitle: "Water&Soil Palaning",
-    desc: "專注於防止水土流失，維護土地資源與生態環境。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/188/600/600.jpg?hmac=Itg2p6UT_1xDyBj3Bq0mU55qVLU1Mx2LnPVhkwxurAs",
-    title: "水利工程",
-    Entitle: "Hydraulic Engineering",
-    desc: "規劃與設計各類水資源利用及防洪排水設施，提升水環境品質。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/570/600/600.jpg?hmac=n0I3nHroHX3een5mn5QbAB_DvEcGQrHrjEgdMqYfmGw",
-    title: "橋梁工程",
-    Entitle: "Bridge Engineering Consultant",
-    desc: "橋梁結構設計、檢測與維護，保障交通運輸安全。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/946/600/600.jpg?hmac=0RH9ovnE6cr8I6Mlz9UPB-X3JrjZXK0lBxVwSNx_ol8",
-    title: "專案管理",
-    Entitle: "Project&Construction Management",
-    desc: "整合規劃、設計、施工與監督，確保工程如期如質完成。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/570/600/600.jpg?hmac=n0I3nHroHX3een5mn5QbAB_DvEcGQrHrjEgdMqYfmGw",
-    title: "地景工程",
-    Entitle: "LandScape Engineering",
-    desc: "結合生態與美學，打造永續且具特色的景觀空間。",
-  },
-  {
-    img: "https://fastly.picsum.photos/id/188/600/600.jpg?hmac=Itg2p6UT_1xDyBj3Bq0mU55qVLU1Mx2LnPVhkwxurAs",
-    title: "社宅x耐震監督",
-    Entitle: "Stucture Accrediation Building",
-    desc: "專業社會住宅規劃與耐震安全監督，守護居住品質。",
-  },
-];
 </script>

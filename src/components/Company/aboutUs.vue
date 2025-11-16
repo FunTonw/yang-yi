@@ -5,7 +5,7 @@
     <div class="max-w-4xl w-full text-left">
       <div class="w-full mb-4">
         <img
-          src="https://fastly.picsum.photos/id/308/800/300.jpg?hmac=cT6KkmjnvmnI0cwdNdg54P6X_1ZNxRhFuDn_EJeG99M"
+          src="../../assets/image/area_2.jpg"
           alt="Banner"
           class="w-full h-40 object-cover rounded-lg shadow-md"
         />

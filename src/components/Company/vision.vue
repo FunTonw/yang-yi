@@ -14,7 +14,7 @@
             <span class="text-md lg:text-xl text-gray-600"> Vision </span>
           </div>
           <img
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+            src="../../assets/image/area_4.jpg"
             alt="vision"
             class="rounded-xl w-full object-cover h-72 md:h-96 shadow"
           />

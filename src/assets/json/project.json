@@ -1,0 +1,320 @@
+{
+  "projects": [
+    {
+      "img": ["public/image/cellImage_0_0.jpg"],
+      "title": "112年度龍潭區公園設施及體健器材新增修繕工程委託設計監造技術服務案",
+      "desc": "桃園市龍潭區",
+      "date": "112年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_1.jpg"],
+      "title": "112年新北市永和區公所經建類工程設計監造技術服務",
+      "desc": "新北市永和區",
+      "date": "112年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_2.jpg"],
+      "title": "113年新北市永和區公所經建類工程設計監造技術服務 ",
+      "desc": "新北市永和區",
+      "date": "110年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_3.jpg"],
+      "title": "114年新北市永和區公所經建類工程設計監造技術服務 ",
+      "desc": "新北市永和區",
+      "date": "110年",
+      "categories": "地景工程"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_7.jpg",
+        "public/image/cellImage_0_8.jpg"
+      ],
+      "title": "中區13期重劃區8座橋梁暨回流溝改建工程委託設計及監造技術服務案 ",
+      "desc": "13期重劃區",
+      "date": "101年",
+      "categories": "橋梁工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_9.jpg"],
+      "title": "文化內容策進院租賃辦公室裝修統包工程委託專案管理及監造技術服務案",
+      "desc": "台北市民生東路三段156號",
+      "date": "109 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_10.jpg"],
+      "title": "台北市文山區秀明路一段19巷12、14號外掛電梯新建工程規劃設計案",
+      "desc": "台北市文山區",
+      "date": "109 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_11.jpg"],
+      "title": "台北市木柵區傅宅裝修暨增建景觀平台與結構補強工程設計簽證案",
+      "desc": "台北市文山區",
+      "date": "111 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_12.jpg"],
+      "title": "台北市立松山高級工農職業學校成功樓等三棟校舍耐震詳評暨結構補強工程技術服務案(二期)",
+      "desc": "台北市",
+      "date": "102 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_13.jpg"],
+      "title": "台北市立松山高級工農職業學校自強樓等八棟校舍耐震詳評暨結構補強工程技術服務案(一期)",
+      "desc": "台北市",
+      "date": "100 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_18.jpg"],
+      "title": "竹北市公所竹北市113年度橋梁維修(含油漆)工程技術服務案(規劃競圖)",
+      "desc": "新竹縣竹北市",
+      "date": "113 年",
+      "categories": "橋梁工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_21.jpg"],
+      "title": "法務部矯正署新竹監獄蓄水池新建工程委託規畫設計監造技術服務案",
+      "desc": "新竹市延平路一段",
+      "date": "112 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_22.jpg"],
+      "title": "桃園國際機場第二航廈擴建工程屋頂景觀平台不銹鋼高架地板工程設計簽證案",
+      "desc": "桃園市大園區",
+      "date": "107 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_23.jpg",
+        "public/image/cellImage_0_24.jpg"
+      ],
+      "title": "海端鄉大埔部落公墓殯葬設施改善工程委託技術服務暨水土保持計畫勞務採購案(含敷地景觀)",
+      "desc": "海端鄉大埔段",
+      "date": "110 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_25.jpg",
+        "public/image/cellImage_0_26.jpg",
+        "public/image/cellImage_0_27.jpg"
+      ],
+      "title": "高遶自然步道第二期環境營造計畫工程設計監造委託技術服務案",
+      "desc": "桃園市復興區",
+      "date": "110 年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_28.jpg"],
+      "title": "國立科學工藝博物館中央監控系統升級統包案委託專案管理(含監造)技術服務",
+      "desc": "高雄市三民區",
+      "date": "110 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_29.jpg"],
+      "title": "基隆市政府水保服務團希望之丘山城社區通廊系統建構計畫(第一期)水土保持計畫委託施工中檢查案",
+      "desc": "基隆市信義區",
+      "date": "109 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_30.jpg"],
+      "title": "基隆市政府水保服務團希望之丘山城社區通廊系統建構計畫(第二期)水土保持計畫委託施工中檢查案",
+      "desc": "基隆市中正區",
+      "date": "109 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_31.jpg"],
+      "title": "基隆市政府水保服務團希望之丘鵲橋通廊計畫水土保持計畫委託施工中檢查案",
+      "desc": "基隆市中正區",
+      "date": "109 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_35.jpg",
+        "public/image/cellImage_0_36.jpg"
+      ],
+      "title": "勞動部勞動力發展署中彰投分署111年度工程專案管理(不含監造)技術服務案",
+      "desc": "台中市西屯區",
+      "date": "111 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_37.jpg"],
+      "title": "勞動部勞動力發展署中彰投分署112年度工程專案管理(不含監造)技術服務案",
+      "desc": "台中市西屯區",
+      "date": "112 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_38.jpg",
+        "public/image/cellImage_0_39.jpg"
+      ],
+      "title": "勞動部勞動力發展署中彰投分署113年度工程專案管理(不含監造)技術服務案",
+      "desc": "台中市西屯區",
+      "date": "113 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_40.jpg"],
+      "title": "勞動部勞動力發展署中彰投分署114年度工程專案管理(含督導)技術服務案",
+      "desc": "台中市西屯區",
+      "date": "114 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_47.jpg",
+        "public/image/cellImage_0_48.jpg",
+        "public/image/cellImage_0_49.jpg"
+      ],
+      "title": "新北市政府捷運工程局環狀線中原站(Y13站)中原溝人行步道工程(第二期)委託設計監造案",
+      "desc": "環狀線中原站(Y13站)",
+      "date": "108 年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_50.jpg"],
+      "title": "新北市政府就業服務處就業服務據點搬遷裝修統包工程專案管理(含監造)委託技術服務案",
+      "desc": "新北市",
+      "date": "113 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_51.jpg"],
+      "title": "新北市泰山區公所泰山區112年度水利工程委託技術服務案(開口合約)",
+      "desc": "新北市泰山區",
+      "date": "112 年",
+      "categories": "土木水利工程(開口合約)"
+    },
+    {
+      "img": ["public/image/cellImage_0_52.jpg"],
+      "title": "農業部農田水利署辦公廳舍室內裝修統包工程委託專案管理(含監造)技術服務案",
+      "desc": "新北市",
+      "date": "114 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_53.jpg",
+        "public/image/cellImage_0_54.jpg"
+      ],
+      "title": "嘉義市八掌溪人行景觀橋新建工程委託設計及監造技術服務案",
+      "desc": "嘉義市八掌溪",
+      "date": "106 年",
+      "categories": "橋梁工程"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_55.jpg",
+        "public/image/cellImage_0_56.jpg"
+      ],
+      "title": "瑠公管理處111年度瑠公紀念生態園區經營管理計畫生態溝設計暨施作統包工程示範案",
+      "desc": "瑠公紀念公園",
+      "date": "111 年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_57.jpg"],
+      "title": "臺中市西屯區協和段245地號等2筆土地王記生活廣場新建工程水土保持計畫委託施工監造案",
+      "desc": "台中市西屯區",
+      "date": "107 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_58.jpg"],
+      "title": "臺中市龍井區龍目井段水裡社小段430-4等四筆土地三陽玉府天宮補照工程水土保持計畫委託施工監造案",
+      "desc": "台中市龍井區",
+      "date": "106 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_59.jpg"],
+      "title": "臺中市龍井區龍目井段水裡社小段86-18等44筆地號集合住宅新建工程水土保持計畫委託施工監造案",
+      "desc": "台中市龍井區",
+      "date": "105 年",
+      "categories": "水土保持工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_60.jpg"],
+      "title": "臺北市中山區培英段公共住宅新建工程委託耐震特別監督技術服務案(S.R.C)",
+      "desc": "台北市中山區",
+      "date": "109 年",
+      "categories": "社宅x耐震監督"
+    },
+    {
+      "img": ["public/image/cellImage_0_61.jpg"],
+      "title": "臺北市立聯合醫院111年至114年度中興院區及資訊中心中央機房空調暨冰水主機汰換工程委託技術服務",
+      "desc": "台北市大同區",
+      "date": "111 年",
+      "categories": "專案管理"
+    },
+    {
+      "img": ["public/image/cellImage_0_62.jpg"],
+      "title": "臺北市南港區經貿段公共住宅新建工程委託耐震特別監督技術服務案(R.C/S)-耐震監督",
+      "desc": "台北市南港區",
+      "date": "109 年",
+      "categories": "社宅x耐震監督"
+    },
+    {
+      "img": [
+        "public/image/cellImage_0_63.jpg",
+        "public/image/cellImage_0_64.jpg"
+      ],
+      "title": "臺北市政府社會局老人自費安養中心小山坡擋土牆維護及景觀步道改善工程委託技術服務案",
+      "desc": "臺北市文山區興隆路四段",
+      "date": "110 年",
+      "categories": "地景工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_65.jpg"],
+      "title": "臺北港東1登船廊道暨旅客服務中心構件維護委託設計監造技術服務案(規劃競圖)",
+      "desc": "新北市八里區",
+      "date": "112 年",
+      "categories": "橋梁工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_68.jpg"],
+      "title": "臺東縣海端鄉山平鋼棚聚會所興建工程委託技術服務暨水土保持計畫勞務採購案",
+      "desc": "台東縣海端鄉",
+      "date": "106 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_70.jpg"],
+      "title": "臺灣鐵路管理局南樹林車站月台增設景觀平台工程委託規劃設計及監造技術服務案",
+      "desc": "新北市樹林區",
+      "date": "111 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_71.jpg"],
+      "title": "臺灣鐵路管理局南樹林員工通勤天橋委託規劃設計及監造技術服務案",
+      "desc": "新北市樹林區",
+      "date": "111 年",
+      "categories": "結構工程"
+    },
+    {
+      "img": ["public/image/cellImage_0_72.jpg"],
+      "title": "衛生福利部北區老人之家頤苑安養中心受電中心盤體組更新工程設計監造案",
+      "desc": "新北市新店區",
+      "date": "106 年",
+      "categories": "專案管理"
+    }
+  ]
+}
